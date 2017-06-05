@@ -10,6 +10,9 @@ Start the queue
 ### ASyncquence.stop()
 Stop the queue
 
+### ASyncquence.next()
+Emits a `next` event
+
 ### ASyncquence.push()
 Appends a new task to the end of the queue
 

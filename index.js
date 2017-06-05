@@ -38,6 +38,10 @@ ASyncquence.prototype.stop = function () {
   this.next();
 };
 
+ASyncquence.prototype.next = function () {
+  this.emit('next');
+}
+
 ASyncquence.prototype.push = function (task) {
   this._queue.push(task);
   return this;
