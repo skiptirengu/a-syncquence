@@ -1,6 +1,6 @@
 {
   "name": "a-syncquence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple sync queue for async tasks",
   "main": "index.js",
   "scripts": {
