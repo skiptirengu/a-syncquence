@@ -80,7 +80,7 @@ ASyncquence.prototype._run = function () {
   }
 }
 
-ASyncquence.prototype.onEnd = function () {
+ASyncquence.prototype.onEnd = function (cb) {
   if (!this._isBinded('end')) this.on('end', cb);
   return this;
 }
