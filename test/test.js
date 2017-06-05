@@ -7,7 +7,7 @@ describe('Sequence', function () {
   let Sequence = require('./../index.js'), sequence;
 
   beforeEach(function () {
-    sequence = new Sequence(10);
+    sequence = new Sequence({ delay: 10 });
   });
 
   it('should emit error event', function run(done) {
