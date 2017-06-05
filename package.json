@@ -1,0 +1,31 @@
+{
+  "name": "a-syncquence",
+  "version": "1.0.0",
+  "description": "Simple sync queue for async tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skiptirengu/a-syncquence.git"
+  },
+  "keywords": [
+    "async",
+    "sync",
+    "node",
+    "js",
+    "queue",
+    "sequence"
+  ],
+  "author": "Skiptir Engu <skiptir.engu@yandex.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skiptirengu/a-syncquence/issues"
+  },
+  "homepage": "https://github.com/skiptirengu/a-syncquence#readme",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "should": "^11.2.1"
+  }
+}
