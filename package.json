@@ -1,8 +1,9 @@
 {
   "name": "a-syncquence",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple sync queue for async tasks",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "mocha test/"
   },
