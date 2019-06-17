@@ -4,18 +4,21 @@ declare module 'a-syncquence' {
     delay: number
   }
 
+  type NextCallback = () => void
+
   class ASyncquence {
+    constructor(opts?: ASyncquenceOptions)
     start(): void
     stop(): void
     next(): void
-    push(task: Function): this
-    unshift(task: Function): this
+    push(task: (next: NextCallback) => void): this
+    unshift(task: (next: NextCallback) => void): this
     count(): number
     clear(): this
     isRunning(): boolean
-    onEnd(callback: Function): this
-    onError(callback: Function): this
-    onNext(callback: Function): this
+    onEnd(callback: () => void): this
+    onError(callback: (error: Error) => void): this
+    onNext(callback: () => void): this
   }
 
   export = ASyncquence
