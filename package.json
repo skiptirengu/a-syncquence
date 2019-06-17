@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/skiptirengu/a-syncquence.git"
   },
+  "files": [
+    "index.js",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [
     "async",
     "sync",
